@@ -1,0 +1,28 @@
+@import url('component/box_menu-item.css');
+
+.container__menu {
+    display: grid;
+    height: 100%;
+    grid-template-rows: [header-start] 100px [header-end content-start] auto [content-end footer-start] 100px [footer-end];
+    grid-template-columns: var(--menu-column-width);
+}
+
+.header__menu {
+    background-color: white;
+    grid-row: 1;
+}
+
+.nav__menu {
+    background-color: blue;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: min-content;
+}
+
+.footer__menu {
+    grid-row: 3;
+}
+
+
+
