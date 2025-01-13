@@ -8,12 +8,12 @@
 }
 
 .header__menu {
-    background-color: white;
     grid-row: 1;
 }
 
 .nav__menu {
     background-color: blue;
+    grid-column: 2;
     grid-row: 2;
     display: grid;
     grid-template-columns: 1fr;
@@ -24,5 +24,42 @@
     grid-row: 3;
 }
 
+/*side-logo*/
 
+.container__logo{
+    display: grid;
+    grid-template-columns: [logo] 30px [title] auto;
+    grid-template-rows: 1fr 1fr;
+    align-items: stretch;
+    padding: 10px;
+}
 
+.container__logo-icon{
+    grid-row: 1;
+    grid-column: 1;
+
+}
+
+.container__logo-title{
+    grid-row: 1;
+    grid-column: 2;
+    
+}
+
+.container__logo-title > span {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.container__logo-row-title {
+    grid-row: 2;
+    grid-column: span 2;
+}
+
+.container__logo-row-title span{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 9px;
+    
+}

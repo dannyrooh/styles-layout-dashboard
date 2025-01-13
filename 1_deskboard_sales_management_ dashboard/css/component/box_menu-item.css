@@ -27,6 +27,10 @@
     grid-column: 1;
 }
 
+.box_menu-item-svg i {
+   color: white;
+}
+
 .box_menu-item-svg img {
     width: 24px;
     filter: invert(1);
