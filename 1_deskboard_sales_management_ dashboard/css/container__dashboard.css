@@ -1,0 +1,126 @@
+.container__dashboard{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+}
+
+.container__dashboard-banner{
+    grid-row: 1;
+}
+
+.container__dashboard-chart{
+    grid-row: 2;
+    border: 1px solid red;
+    background-color: white;
+}
+
+.container__dashboard-invoices{
+    grid-row: 3;
+    border: 1px solid red;
+    background-color: white;
+}
+
+/*banner*/
+
+.component-dashboard-banner{
+    display: grid;
+    grid-template-columns: 4;
+    column-gap: 20px;
+    
+}
+
+.component-dashboard-banner-customers{
+    grid-column: 1;
+    background-color: white;
+}
+.component-dashboard-banner-revenue{
+    grid-column: 2;
+    background-color: white;
+}
+.component-dashboard-banner-profit{
+    grid-column: 3;
+    background-color: white;
+}
+.component-dashboard-banner-invoices{
+    grid-column: 4;
+    background-color: white;
+}
+
+/*charts*/
+.component-dashboard-chart{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    padding: 10px;   
+}
+
+.component-dashboard-chart-invoice{
+    grid-column: 1;
+    border: 1px solid green;
+}
+
+.component-dashboard-chart-sales{
+    grid-column: 2;
+    border: 1px solid green;
+}
+
+/*table invoices*/
+.container__dashboard-invoices-table{
+    display: grid;
+    padding: 10px;
+}
+
+.component-dashboard-table{
+    border: 1px solid green;
+}
+
+
+/*banner item*/
+.component-dashboard-banner-item{
+    display: grid;
+    grid-template-columns: 2px 1fr 30px;
+    grid-template-rows: 3;
+    gap: 10px;
+    padding: 20px;
+}
+
+.component-dashboard-banner-item-bar{
+    grid-column: 1;
+    grid-row: span 2;
+    border: solid 2px;
+}
+
+.component-dashboard-banner-item-title{
+    grid-column: 2;
+    grid-row: 1;
+    padding-left: 10px;
+}
+
+.component-dashboard-banner-item-title span{
+
+    font-size: 120%;
+}
+
+.component-dashboard-banner-item-value{
+    grid-column: 2;
+    grid-row: 2;
+    padding-left: 10px;
+}
+
+.component-dashboard-banner-item-value span{
+    font-size: 150%;
+    font-weight: 700;
+}
+
+
+.component-dashboard-banner-item-icon{
+    grid-column: 3;
+    grid-row: 1;
+}
+.component-dashboard-banner-item-footer{
+    grid-column: span 3;
+    grid-row: 3;
+}
+.component-dashboard-banner-item-footer span{ 
+    padding-right: 5px;
+}

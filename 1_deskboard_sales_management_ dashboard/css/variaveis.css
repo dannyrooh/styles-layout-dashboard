@@ -14,3 +14,28 @@
 .div-hover{
     background-color: rgba(255, 255, 255, 0.2); 
 }
+
+.color-text-title{ color: gray; }
+.color-negative{ color: red}
+.color-positive{ color: green}
+
+.text-bold{
+    font-weight: bolder;
+}
+
+
+.cor-roxa{ color: rgb(53, 9, 226);}
+.cor-verde{ color: green;}
+.cor-azul-claro{ color: rgb(20, 87, 163)}
+
+.bg-roxa{ background-color: rgb(53, 9, 226,0.2);}
+.bg-verde{ background-color: rgb(7, 135, 7, 0.2);}
+.bg-azul-claro{ background-color: rgb(20, 87, 163, 0.2)}
+
+.icon-box{
+    background-color: black;
+}
+
+
+
+.cor-bg-roxa-alfa{ background-color: rgb(53, 9, 226, 0.2);}
