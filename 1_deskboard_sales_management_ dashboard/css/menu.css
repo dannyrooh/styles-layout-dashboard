@@ -1,28 +1,131 @@
-@import url('component/box_menu-item.css');
-
 .container__menu {
     display: grid;
     height: 100%;
-    grid-template-rows: [header-start] 100px [header-end content-start] auto [content-end footer-start] 100px [footer-end];
+    grid-template-rows: [header-start] 100px [header-end content-start] auto [content-end footer-start] 70px [footer-end];
     grid-template-columns: var(--menu-column-width);
 }
 
 .header__menu {
-    background-color: white;
     grid-row: 1;
 }
 
 .nav__menu {
-    background-color: blue;
+    grid-column: 1;
     grid-row: 2;
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: min-content;
+    
+}
+
+.menu-title {
+    display: grid;
+    align-items: center;
+    height: 30px;
+    font-size: 60%;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(57, 54, 54);
+    margin-bottom: 10px;
 }
 
 .footer__menu {
     grid-row: 3;
 }
+
+/*side-logo*/
+
+.container__logo{
+    display: grid;
+    grid-template-columns: [logo] 30px [title] auto;
+    grid-template-rows: 1fr 1fr;
+    align-items: stretch;
+    padding: 10px;
+}
+
+.container__logo-icon{
+    grid-row: 1;
+    grid-column: 1;
+
+}
+
+.container__logo-title{
+    grid-row: 1;
+    grid-column: 2;
+    
+}
+
+.container__logo-title > span {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.container__logo-row-title {
+    grid-row: 2;
+    grid-column: span 2;
+}
+
+.container__logo-row-title span{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 9px;
+    
+}
+
+
+
+.nav__menu-main {
+    display: inline;
+    margin-bottom: 20px;
+
+}
+
+.nav__menu-main ul li  {
+    text-decoration: none;
+}
+
+/*container item*/
+.container__item{
+    display: grid;
+    grid-template-columns: [logo] 20px [title] auto;
+    grid-template-rows: 1fr;
+    align-items: stretch;
+    padding: 10px;
+    font-size: 80%;
+    row-gap: 1rem;
+}
+
+.container__item:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+.container__item a {
+    display: grid;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.container__item-icon{
+    
+    grid-row: 1;
+    grid-column: 1;
+
+}
+
+.container__item-icon a i {
+    font-size: 120%;
+}
+
+.container__item-title{
+    grid-row: 1;
+    grid-column: 2;
+
+    
+}
+
+
 
 
 

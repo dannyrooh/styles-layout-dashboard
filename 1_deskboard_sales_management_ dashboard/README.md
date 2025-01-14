@@ -28,12 +28,14 @@ html, body {
 ~~~
 
 ### 2. Criamos a estrutura base no arquivo container-base.css
+
 Nesse css, definimos a estrutura que determina a posição das tags: **header, aside,  main**
 
-**imagem da estrutura base do bashboard**
-![](images/container-base.png)
+* **imagem da estrutura base do bashboard**
+![#](images/container-base.png)
 
-**css base**
+* **css base**
+
 ~~~css
 .container {
     display: grid;
@@ -68,11 +70,12 @@ main{
 }
 ~~~
 
-**html base**
+* **html base**
+
 ~~~html
     <div class="container">
         <header>
-            <pan>Header - header principal</span>
+            <span>Header - header principal</span>
         </header>
 
         <aside>
@@ -80,13 +83,13 @@ main{
         </aside>
 
         <main>
-            <pan>Main - área principal</span>
+            <span>Main - área principal</span>
         </main>
     </div>
 ~~~
 
-
-
 ## Referências de estudos CSS
 
 * https://css-tricks.com/snippets/css/complete-guide-grid/
+
+* https://materializecss.com/icons.html
