@@ -99,12 +99,16 @@
     background-color: rgba(255, 255, 255, 0.2); 
 }
 
+.container__item:hover a i, .container__item:hover a span{
+    color: white;
+}
+
 .container__item a {
     display: grid;
     align-items: center;
     height: 100%;
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 
 .container__item-icon{
