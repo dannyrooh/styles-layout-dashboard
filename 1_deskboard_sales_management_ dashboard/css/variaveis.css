@@ -1,3 +1,16 @@
 :root {
     --menu-column-width: 200px;
 }
+
+
+.icon-color{
+    color: gray;
+}
+
+.icon-color-select{
+    color: white;
+}
+
+.div-hover{
+    background-color: rgba(255, 255, 255, 0.2); 
+}
