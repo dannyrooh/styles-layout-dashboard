@@ -29,6 +29,7 @@ aside{
 main{
     background-color: azure;
     grid-column: 2;
+    padding: 40px;
 }
 
 

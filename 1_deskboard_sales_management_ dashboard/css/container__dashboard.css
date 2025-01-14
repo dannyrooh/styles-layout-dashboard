@@ -1,0 +1,87 @@
+.container__dashboard{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+
+}
+
+.container__dashboard-banner{
+
+    grid-row: 1;
+    border: 1px solid red;
+    background-color: white;
+
+}
+
+.container__dashboard-chart{
+    
+    grid-row: 2;
+    border: 1px solid red;
+    background-color: white;
+    
+}
+
+.container__dashboard-invoices{
+
+    grid-row: 3;
+    border: 1px solid red;
+    background-color: white;
+    
+}
+
+/*banner*/
+
+.component-dashboard-banner{
+    display: grid;
+    grid-template-columns: 4;
+    column-gap: 20px;
+    padding: 10px;
+}
+
+.component-dashboard-banner-customers{
+    grid-column: 1;
+    border: 1px solid green;
+}
+.component-dashboard-banner-revenue{
+    grid-column: 2;
+    border: 1px solid green;
+}
+.component-dashboard-banner-profit{
+    grid-column: 3;
+    border: 1px solid green;
+}
+.component-dashboard-banner-invoices{
+    grid-column: 4;
+    border: 1px solid green;
+}
+
+/*charts*/
+.component-dashboard-chart{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    padding: 10px;   
+}
+
+.component-dashboard-chart-invoice{
+    grid-column: 1;
+    border: 1px solid green;
+
+}
+
+.component-dashboard-chart-sales{
+    grid-column: 2;
+    border: 1px solid green;
+
+}
+
+/*table invoices*/
+.container__dashboard-invoices-table{
+    display: grid;
+    padding: 10px;
+}
+
+.component-dashboard-table{
+    border: 1px solid green;
+}
