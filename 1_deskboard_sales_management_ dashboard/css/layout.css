@@ -27,7 +27,7 @@ aside{
 }
 
 main{
-    background-color: azure;
+    background-color: rgb(220, 217, 217);
     grid-column: 2;
     padding: 40px;
 }
