@@ -26,16 +26,11 @@
 
 .cor-roxa{ color: rgb(53, 9, 226);}
 .cor-verde{ color: green;}
-.cor-azul-claro{ color: rgb(20, 87, 163)}
+.cor-azul{ color: blue;}
+.cor-cinza-claro{color: rgb(180, 174, 174)}
 
 .bg-roxa{ background-color: rgb(53, 9, 226,0.2);}
 .bg-verde{ background-color: rgb(7, 135, 7, 0.2);}
-.bg-azul-claro{ background-color: rgb(20, 87, 163, 0.2)}
-
-.icon-box{
-    background-color: black;
-}
-
 
 
 .cor-bg-roxa-alfa{ background-color: rgb(53, 9, 226, 0.2);}
