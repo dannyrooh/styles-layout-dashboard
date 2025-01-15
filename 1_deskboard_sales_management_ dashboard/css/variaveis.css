@@ -34,3 +34,37 @@
 
 
 .cor-bg-roxa-alfa{ background-color: rgb(53, 9, 226, 0.2);}
+
+
+.column-header {
+    font-weight: bold;
+    font-size: 80%;
+    color: grey;
+}
+
+.paid{
+    color: green;
+    background-color: rgb(144, 216, 37, 0.4);
+    border-radius: 20%;
+    display: inline-block;
+    width: 50px;
+    padding: 2px 10px;
+}
+
+.pending{
+    color: rgb(205, 103, 15);
+    background-color: rgba(231, 128, 39, 0.4);
+    border-radius: 20%;
+    display: inline-block;
+    width: 50px;
+    padding: 2px 10px;
+}
+
+.overdue{
+    color: rgb(184, 14, 133);
+    background-color: rgba(225, 24, 165, 0.4);
+    border-radius: 20%;
+    display: inline-block;
+    width: 50px;
+    padding: 2px 10px;
+}

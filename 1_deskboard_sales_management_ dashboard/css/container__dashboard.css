@@ -15,7 +15,7 @@
 
 .container__dashboard-invoices{
     grid-row: 3;
-    border: 1px solid red;
+    padding: 20px;
     background-color: white;
 }
 
@@ -63,17 +63,6 @@
     padding: 20px;   
     background-color: white;
 }
-
-/*table invoices*/
-.container__dashboard-invoices-table{
-    display: grid;
-    padding: 10px;
-}
-
-.component-dashboard-table{
-    border: 1px solid green;
-}
-
 
 /*banner item*/
 .component-dashboard-banner-item{
@@ -196,5 +185,61 @@
 .component-dashboard-chart-sales-content{
     display: grid;
     grid-template-columns: auto 30px;
-    grid-template-rows: 40px auto;
+    grid-template-rows: 0px auto;
 }
+
+/*table invoices*/
+.container__dashboard-invoices-content{
+    display: grid;
+}
+
+.container__dashboard-invoices-title-content{
+    display: grid;
+    grid-template-columns: auto 70px 30px;
+    column-gap: 10px;
+}
+
+ 
+.container__dashboard-invoices-title-content-filter{
+    border: 1px solid rgb(181, 174, 174);
+    border-radius: 5px;
+    padding: 2px 10px 2px 2px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container__dashboard-invoices-table-content{
+    display: grid;
+    grid-template-columns: 20px auto auto auto Auto 100px 100px;
+    grid-template-rows: 24px;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-top: 10px;
+    align-items: center;
+    
+}
+
+.container__dashboard-invoices-table-content > span{
+    font-size: 80%;
+}
+
+.container__dashboard-invoices-table-content > div{
+    display: grid;
+    grid-template-columns: 24px auto;
+    align-items: center;
+    column-gap: 10px;
+    
+}
+
+.container__dashboard-invoices-table-content > div > img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.container__dashboard-invoices-table-content > div > span {
+    font-size: 80%;
+}
+
